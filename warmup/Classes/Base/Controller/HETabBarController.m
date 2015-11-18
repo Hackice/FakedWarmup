@@ -20,7 +20,7 @@
 #import "HENavigationController.h"
 #import "HETabBar.h"
 #import "HEMainController.h"
-#import "HEExperienceController.h"
+#import "QNTableViewController.h"
 #import "HEExploreController.h"
 #import "HEMineController.h"
 
@@ -53,7 +53,7 @@
     
     [self addChildViewControllerWith:[[HEMainController alloc] init] image:@"Main_item" selectedImage:@"Main_item_selected"];
     
-    [self addChildViewControllerWith:[[HEExperienceController alloc] init] image:@"Experience_item" selectedImage:@"Experience_item_selected"];
+    [self addChildViewControllerWith:[[QNTableViewController alloc] init] image:@"Experience_item" selectedImage:@"Experience_item_selected"];
    
     [self addChildViewControllerWith:[[HEExploreController alloc] initWithStyle:UITableViewStyleGrouped] image:@"Explore_item" selectedImage:@"Explore_item_selected"];
     

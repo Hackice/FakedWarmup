@@ -30,6 +30,13 @@
 		8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */; };
 		8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */; };
 		8FFA6BE51BFCC290007759D1 /* HECityBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BE41BFCC290007759D1 /* HECityBarButton.m */; };
+		8FFA6BFA1BFCDF10007759D1 /* QNCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */; };
+		8FFA6BFB1BFCDF10007759D1 /* QNCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF11BFCDF10007759D1 /* QNCell.m */; };
+		8FFA6BFC1BFCDF10007759D1 /* QNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF31BFCDF10007759D1 /* QNModel.m */; };
+		8FFA6BFD1BFCDF10007759D1 /* QNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */; };
+		8FFA6BFE1BFCDF10007759D1 /* aixing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF61BFCDF10007759D1 /* aixing.png */; };
+		8FFA6BFF1BFCDF10007759D1 /* qianbi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF71BFCDF10007759D1 /* qianbi.jpg */; };
+		8FFA6C001BFCDF10007759D1 /* NSString+TimeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +82,17 @@
 		8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HEHead.m"; sourceTree = "<group>"; };
 		8FFA6BE31BFCC290007759D1 /* HECityBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HECityBarButton.h; sourceTree = "<group>"; };
 		8FFA6BE41BFCC290007759D1 /* HECityBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HECityBarButton.m; sourceTree = "<group>"; };
+		8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QNCell.xib; sourceTree = "<group>"; };
+		8FFA6BF01BFCDF10007759D1 /* QNCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNCell.h; sourceTree = "<group>"; };
+		8FFA6BF11BFCDF10007759D1 /* QNCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNCell.m; sourceTree = "<group>"; };
+		8FFA6BF21BFCDF10007759D1 /* QNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNModel.h; sourceTree = "<group>"; };
+		8FFA6BF31BFCDF10007759D1 /* QNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNModel.m; sourceTree = "<group>"; };
+		8FFA6BF41BFCDF10007759D1 /* QNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNTableViewController.h; sourceTree = "<group>"; };
+		8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNTableViewController.m; sourceTree = "<group>"; };
+		8FFA6BF61BFCDF10007759D1 /* aixing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aixing.png; sourceTree = "<group>"; };
+		8FFA6BF71BFCDF10007759D1 /* qianbi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qianbi.jpg; sourceTree = "<group>"; };
+		8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeString.h"; sourceTree = "<group>"; };
+		8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeString.m"; sourceTree = "<group>"; };
 		AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB13F5FF27EC64E90690DE7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -217,6 +235,17 @@
 		8F7518881BFC3D0800118655 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */,
+				8FFA6BF01BFCDF10007759D1 /* QNCell.h */,
+				8FFA6BF11BFCDF10007759D1 /* QNCell.m */,
+				8FFA6BF21BFCDF10007759D1 /* QNModel.h */,
+				8FFA6BF31BFCDF10007759D1 /* QNModel.m */,
+				8FFA6BF41BFCDF10007759D1 /* QNTableViewController.h */,
+				8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */,
+				8FFA6BF61BFCDF10007759D1 /* aixing.png */,
+				8FFA6BF71BFCDF10007759D1 /* qianbi.jpg */,
+				8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */,
+				8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */,
 				8F7518AB1BFC44B100118655 /* HEExperienceController.h */,
 				8F7518AC1BFC44B100118655 /* HEExperienceController.m */,
 			);
@@ -428,7 +457,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F75189D1BFC3D0800118655 /* Info.plist in Resources */,
+				8FFA6BFE1BFCDF10007759D1 /* aixing.png in Resources */,
+				8FFA6BFF1BFCDF10007759D1 /* qianbi.jpg in Resources */,
 				8F7518C41BFC6B0C00118655 /* HEMainCell.xib in Resources */,
+				8FFA6BFA1BFCDF10007759D1 /* QNCell.xib in Resources */,
 				8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */,
 				8F7518A81BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF in Resources */,
 			);
@@ -489,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFA6BFC1BFCDF10007759D1 /* QNModel.m in Sources */,
 				8F7518AD1BFC44B100118655 /* HEExperienceController.m in Sources */,
 				8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */,
 				8F7518A51BFC3EBD00118655 /* HENavigationController.m in Sources */,
@@ -503,9 +536,12 @@
 				8F7518CA1BFC736300118655 /* HEUserModel.m in Sources */,
 				8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */,
 				8F7518C31BFC6B0C00118655 /* HEMainCell.m in Sources */,
+				8FFA6BFD1BFCDF10007759D1 /* QNTableViewController.m in Sources */,
 				8F7518BF1BFC54D300118655 /* UIView+HEExtension.m in Sources */,
+				8FFA6C001BFCDF10007759D1 /* NSString+TimeString.m in Sources */,
 				8F75189E1BFC3D0800118655 /* main.m in Sources */,
 				8F7518C71BFC700800118655 /* HEActiveModel.m in Sources */,
+				8FFA6BFB1BFCDF10007759D1 /* QNCell.m in Sources */,
 				8F7518A61BFC3EBD00118655 /* HETabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

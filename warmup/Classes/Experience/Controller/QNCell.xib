@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QNCell">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="125"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W6v-Kp-e4V">
+                    <rect key="frame" x="15" y="15" width="95" height="95"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="5TO-yf-RvK"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaf-mp-Aw1">
+                    <rect key="frame" x="125" y="15" width="216" height="25.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvc-by-Mzj">
+                    <rect key="frame" x="125" y="52" width="216" height="21.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wm-5O-cAx">
+                    <rect key="frame" x="125" y="89.5" width="116" height="20.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="left" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnu-IZ-tSI">
+                    <rect key="frame" x="261" y="76" width="80" height="34"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="90d-l1-SWg"/>
+                        <constraint firstAttribute="width" constant="80" id="HaJ-Og-eiB"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="40" maxY="0.0"/>
+                    <state key="normal" title="0" image="aixing.png">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tnu-IZ-tSI" firstAttribute="centerY" secondItem="1wm-5O-cAx" secondAttribute="centerY" id="49M-mz-pdg"/>
+                <constraint firstItem="Lvc-by-Mzj" firstAttribute="centerY" secondItem="W6v-Kp-e4V" secondAttribute="centerY" id="EHI-GF-ECk"/>
+                <constraint firstItem="W6v-Kp-e4V" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="EnO-89-m7L"/>
+                <constraint firstItem="Lvc-by-Mzj" firstAttribute="leading" secondItem="oaf-mp-Aw1" secondAttribute="leading" id="IQL-z2-8VF"/>
+                <constraint firstItem="oaf-mp-Aw1" firstAttribute="top" secondItem="W6v-Kp-e4V" secondAttribute="top" id="M2J-GZ-e6M"/>
+                <constraint firstAttribute="trailing" secondItem="oaf-mp-Aw1" secondAttribute="trailing" constant="10" id="Of3-xr-ziT"/>
+                <constraint firstItem="1wm-5O-cAx" firstAttribute="bottom" secondItem="W6v-Kp-e4V" secondAttribute="bottom" id="P8X-U0-CiG"/>
+                <constraint firstItem="tnu-IZ-tSI" firstAttribute="trailing" secondItem="oaf-mp-Aw1" secondAttribute="trailing" id="e2f-2r-9SA"/>
+                <constraint firstAttribute="bottom" secondItem="W6v-Kp-e4V" secondAttribute="bottom" constant="15" id="fsH-is-dbS"/>
+                <constraint firstItem="W6v-Kp-e4V" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="gLY-tF-7ne"/>
+                <constraint firstItem="Lvc-by-Mzj" firstAttribute="trailing" secondItem="oaf-mp-Aw1" secondAttribute="trailing" id="grC-Kl-R92"/>
+                <constraint firstItem="tnu-IZ-tSI" firstAttribute="bottom" secondItem="W6v-Kp-e4V" secondAttribute="bottom" id="mVX-30-aFT"/>
+                <constraint firstItem="1wm-5O-cAx" firstAttribute="leading" secondItem="oaf-mp-Aw1" secondAttribute="leading" id="msK-nL-ti1"/>
+                <constraint firstItem="tnu-IZ-tSI" firstAttribute="leading" secondItem="1wm-5O-cAx" secondAttribute="trailing" constant="20" id="spI-oo-gX6"/>
+                <constraint firstItem="oaf-mp-Aw1" firstAttribute="leading" secondItem="W6v-Kp-e4V" secondAttribute="trailing" constant="15" id="zr9-3f-1UM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="49M-mz-pdg"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="contentLabel" destination="Lvc-by-Mzj" id="97U-Qv-jGD"/>
+                <outlet property="dateLabel" destination="1wm-5O-cAx" id="AnU-Ts-Fjt"/>
+                <outlet property="iconImageView" destination="W6v-Kp-e4V" id="wmJ-ej-noV"/>
+                <outlet property="likeCountButton" destination="tnu-IZ-tSI" id="EHT-fa-iVY"/>
+                <outlet property="titleLabel" destination="oaf-mp-Aw1" id="orZ-zP-bsQ"/>
+            </connections>
+            <point key="canvasLocation" x="379.5" y="97.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aixing.png" width="26" height="26"/>
+    </resources>
+</document>
