@@ -36,6 +36,4 @@
     self.backgroundColor = HEGlobalBackgroundColor;
 }
 
-
-
 @end

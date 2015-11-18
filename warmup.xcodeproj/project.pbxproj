@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1CEBD1C70276322DBA8EC858 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB13F5FF27EC64E90690DE7C /* libPods.a */; };
-		5BF9DC191BFCE8A4009D4833 /* HEMineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */; settings = {ASSET_TAGS = (); }; };
-		5BF9DC241BFCF6A0009D4833 /* HETempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5BF9DC191BFCE8A4009D4833 /* HEMineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */; };
+		5BF9DC241BFCF6A0009D4833 /* HETempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */; };
 		8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75187E1BFC3D0800118655 /* AppDelegate.m */; };
 		8F75189D1BFC3D0800118655 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F75187F1BFC3D0800118655 /* Info.plist */; };
 		8F75189E1BFC3D0800118655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518801BFC3D0800118655 /* main.m */; };
@@ -82,15 +82,15 @@
 		8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HEHead.m"; sourceTree = "<group>"; };
 		8FFA6BE31BFCC290007759D1 /* HECityBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HECityBarButton.h; sourceTree = "<group>"; };
 		8FFA6BE41BFCC290007759D1 /* HECityBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HECityBarButton.m; sourceTree = "<group>"; };
-		8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QNCell.xib; sourceTree = "<group>"; };
-		8FFA6BF01BFCDF10007759D1 /* QNCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNCell.h; sourceTree = "<group>"; };
-		8FFA6BF11BFCDF10007759D1 /* QNCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNCell.m; sourceTree = "<group>"; };
-		8FFA6BF21BFCDF10007759D1 /* QNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNModel.h; sourceTree = "<group>"; };
-		8FFA6BF31BFCDF10007759D1 /* QNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNModel.m; sourceTree = "<group>"; };
+		8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QNCell.xib; path = ../Controller/QNCell.xib; sourceTree = "<group>"; };
+		8FFA6BF01BFCDF10007759D1 /* QNCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QNCell.h; path = ../Controller/QNCell.h; sourceTree = "<group>"; };
+		8FFA6BF11BFCDF10007759D1 /* QNCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QNCell.m; path = ../Controller/QNCell.m; sourceTree = "<group>"; };
+		8FFA6BF21BFCDF10007759D1 /* QNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QNModel.h; path = ../Controller/QNModel.h; sourceTree = "<group>"; };
+		8FFA6BF31BFCDF10007759D1 /* QNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QNModel.m; path = ../Controller/QNModel.m; sourceTree = "<group>"; };
 		8FFA6BF41BFCDF10007759D1 /* QNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNTableViewController.h; sourceTree = "<group>"; };
 		8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNTableViewController.m; sourceTree = "<group>"; };
-		8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeString.h"; sourceTree = "<group>"; };
-		8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeString.m"; sourceTree = "<group>"; };
+		8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TimeString.h"; path = "../Experience/Controller/NSString+TimeString.h"; sourceTree = "<group>"; };
+		8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TimeString.m"; path = "../Experience/Controller/NSString+TimeString.m"; sourceTree = "<group>"; };
 		AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB13F5FF27EC64E90690DE7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -208,6 +208,8 @@
 		8F7518861BFC3D0800118655 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */,
+				8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */,
 				8F7518BD1BFC54D300118655 /* UIView+HEExtension.h */,
 				8F7518BE1BFC54D300118655 /* UIView+HEExtension.m */,
 				8F7518B71BFC474D00118655 /* UIBarButtonItem+HECustomItem.h */,
@@ -233,15 +235,8 @@
 		8F7518881BFC3D0800118655 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */,
-				8FFA6BF01BFCDF10007759D1 /* QNCell.h */,
-				8FFA6BF11BFCDF10007759D1 /* QNCell.m */,
-				8FFA6BF21BFCDF10007759D1 /* QNModel.h */,
-				8FFA6BF31BFCDF10007759D1 /* QNModel.m */,
 				8FFA6BF41BFCDF10007759D1 /* QNTableViewController.h */,
 				8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */,
-				8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */,
-				8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +244,8 @@
 		8F7518891BFC3D0800118655 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA6BF21BFCDF10007759D1 /* QNModel.h */,
+				8FFA6BF31BFCDF10007759D1 /* QNModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,6 +253,9 @@
 		8F75188A1BFC3D0800118655 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA6BEF1BFCDF10007759D1 /* QNCell.xib */,
+				8FFA6BF01BFCDF10007759D1 /* QNCell.h */,
+				8FFA6BF11BFCDF10007759D1 /* QNCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,7 +426,7 @@
 				TargetAttributes = {
 					8F7518361BFC2E8A00118655 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 2XVDXGS5KV;
+						DevelopmentTeam = W5L6Y9RPYG;
 					};
 				};
 			};
@@ -639,7 +639,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/warmup/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.haha123as.warm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackice.warmup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -655,7 +655,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/warmup/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.haha123as.warm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackice.warmup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

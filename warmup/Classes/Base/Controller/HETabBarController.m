@@ -59,7 +59,7 @@
     [self addChildViewControllerWith:[[HEExploreController alloc] initWithStyle:UITableViewStyleGrouped] image:@"Explore_item" selectedImage:@"Explore_item_selected"];
     
 //    [self addChildViewControllerWith:[[HEMineController alloc] initWithStyle:UITableViewStyleGrouped] image:@"Mine_item" selectedImage:@"Mine_item_selected"];
-    [self addChildViewControllerWith:[[HEMineController alloc] init] image:@"Explore_item" selectedImage:@"Explore_item_selected"];
+    [self addChildViewControllerWith:[[HEMineController alloc] init] image:@"Mine_item" selectedImage:@"Mine_item_selected"];
 }
 
 /**
