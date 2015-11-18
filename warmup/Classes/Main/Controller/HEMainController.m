@@ -11,11 +11,13 @@
 #import "HEActiveModel.h"
 #import <AFNetworking.h>
 #import <MJExtension.h>
+#import "HECityBarButton.h"
 
 @interface HEMainController ()
 
 @property (weak, nonatomic) AFHTTPSessionManager *sessionManager;/**< AFN请求管理者 */
 @property (strong, nonatomic) NSArray *activeModels;/**< 模型数组 */
+//@property (weak, nonatomic) HECityBarButton *cityButton;/**< 城市按钮 */
 
 @end
 
@@ -23,12 +25,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     // register cell
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([HEMainCell class]) bundle:nil] forCellReuseIdentifier:@"HEMainCell"];
@@ -48,6 +44,14 @@
     
     // show custom separate
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    [self setupLeftButtonItem];
+}
+
+- (void)setupLeftButtonItem {
+
+    HECityBarButton *cityBarButton = [[HECityBarButton alloc] init];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cityBarButton];
 }
 
 #pragma mark - Networking Request
@@ -94,7 +98,7 @@
             return;
         }
         /* json -> model */
-        weakSelf.activeModels = [HEActiveModel objectArrayWithKeyValuesArray:requestObject[@"result"][@"classes"]];
+        weakSelf.activeModels = [HEActiveModel mj_objectArrayWithKeyValuesArray:requestObject[@"result"][@"classes"]];
         
         [weakSelf.tableView reloadData];
         

@@ -29,7 +29,7 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
     // button title
-    [button setTitle:@"返回" forState:UIControlStateNormal];
+//    [button setTitle:@"返回" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [button setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     
@@ -46,4 +46,5 @@
 
     return [[self alloc] initWithCustomView:button];
 }
+
 @end

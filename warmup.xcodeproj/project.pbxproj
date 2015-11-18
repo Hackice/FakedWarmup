@@ -29,6 +29,7 @@
 		8F7518CA1BFC736300118655 /* HEUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518C91BFC736300118655 /* HEUserModel.m */; };
 		8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */; };
 		8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */; };
+		8FFA6BE51BFCC290007759D1 /* HECityBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BE41BFCC290007759D1 /* HECityBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,8 @@
 		8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HEExtension.m"; sourceTree = "<group>"; };
 		8F7518CD1BFC767F00118655 /* UIImageView+HEHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HEHead.h"; sourceTree = "<group>"; };
 		8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HEHead.m"; sourceTree = "<group>"; };
+		8FFA6BE31BFCC290007759D1 /* HECityBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HECityBarButton.h; sourceTree = "<group>"; };
+		8FFA6BE41BFCC290007759D1 /* HECityBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HECityBarButton.m; sourceTree = "<group>"; };
 		AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB13F5FF27EC64E90690DE7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -303,6 +306,8 @@
 				8F7518C01BFC6B0C00118655 /* HEMainCell.h */,
 				8F7518C11BFC6B0C00118655 /* HEMainCell.m */,
 				8F7518C21BFC6B0C00118655 /* HEMainCell.xib */,
+				8FFA6BE31BFCC290007759D1 /* HECityBarButton.h */,
+				8FFA6BE41BFCC290007759D1 /* HECityBarButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 				8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */,
 				8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */,
 				8F7518B91BFC474D00118655 /* UIBarButtonItem+HECustomItem.m in Sources */,
+				8FFA6BE51BFCC290007759D1 /* HECityBarButton.m in Sources */,
 				8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */,
 				8F7518CA1BFC736300118655 /* HEUserModel.m in Sources */,
 				8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */,

@@ -28,11 +28,11 @@
     
     // set navigationBar barButtonItem
     UIBarButtonItem *barButtonItem = [UIBarButtonItem appearance];
-    
+
     // normal
     NSMutableDictionary *itemNormalAttributes = [NSMutableDictionary dictionary];
-    itemNormalAttributes[NSFontAttributeName] = [UIFont boldSystemFontOfSize:17];
-    itemNormalAttributes[NSForegroundColorAttributeName] = [UIColor blackColor];
+    itemNormalAttributes[NSFontAttributeName] = [UIFont boldSystemFontOfSize:16];
+    itemNormalAttributes[NSForegroundColorAttributeName] = HEGlobalColor;
     [barButtonItem setTitleTextAttributes:itemNormalAttributes forState:UIControlStateNormal];
 
     // disable
