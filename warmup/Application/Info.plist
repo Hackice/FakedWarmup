@@ -2,13 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>取暖</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,13 +24,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UIRequiredDeviceCapabilities</key>
+	<key>MinimumOSVersion</key>
+	<string>7.0</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
 	<array>
-		<string>armv7</string>
-	</array>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
+		<string>FZLanTingkanHei-R-GBK.TTF</string>
 	</array>
 	<key>UILaunchImages</key>
 	<array>
@@ -78,13 +78,13 @@
 			<string>{320, 568}</string>
 		</dict>
 	</array>
-	<key>UIAppFonts</key>
+	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string>FZLanTingkanHei-R-GBK.TTF</string>
+		<string>armv7</string>
 	</array>
-	<key>MinimumOSVersion</key>
-	<string>7.0</string>
-	<key>CFBundleDisplayName</key>
-	<string>取暖</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
 </dict>
 </plist>
