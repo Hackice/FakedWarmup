@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HEMineController : UITableViewController
+@interface HEMineController : UIViewController
 
 @end

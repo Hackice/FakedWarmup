@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1CEBD1C70276322DBA8EC858 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB13F5FF27EC64E90690DE7C /* libPods.a */; };
+		5BF9DC191BFCE8A4009D4833 /* HEMineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */; settings = {ASSET_TAGS = (); }; };
+		5BF9DC241BFCF6A0009D4833 /* HETempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75187E1BFC3D0800118655 /* AppDelegate.m */; };
 		8F75189D1BFC3D0800118655 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F75187F1BFC3D0800118655 /* Info.plist */; };
 		8F75189E1BFC3D0800118655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518801BFC3D0800118655 /* main.m */; };
@@ -40,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HEMineController.xib; sourceTree = "<group>"; };
+		5BF9DC221BFCF6A0009D4833 /* HETempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HETempViewController.h; sourceTree = "<group>"; };
+		5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETempViewController.m; sourceTree = "<group>"; };
 		86EB4B917803FD80553D256D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8F7518371BFC2E8A00118655 /* warmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warmup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F75187D1BFC3D0800118655 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -356,6 +361,9 @@
 			children = (
 				8F7518B41BFC44EC00118655 /* HEMineController.h */,
 				8F7518B51BFC44EC00118655 /* HEMineController.m */,
+				5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */,
+				5BF9DC221BFCF6A0009D4833 /* HETempViewController.h */,
+				5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -429,7 +437,7 @@
 				TargetAttributes = {
 					8F7518361BFC2E8A00118655 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = W5L6Y9RPYG;
+						DevelopmentTeam = 2XVDXGS5KV;
 					};
 				};
 			};
@@ -456,6 +464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF9DC191BFCE8A4009D4833 /* HEMineController.xib in Resources */,
 				8F75189D1BFC3D0800118655 /* Info.plist in Resources */,
 				8FFA6BFE1BFCDF10007759D1 /* aixing.png in Resources */,
 				8FFA6BFF1BFCDF10007759D1 /* qianbi.jpg in Resources */,
@@ -530,6 +539,7 @@
 				8F7518B31BFC44DD00118655 /* HEMainController.m in Sources */,
 				8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */,
 				8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */,
+				5BF9DC241BFCF6A0009D4833 /* HETempViewController.m in Sources */,
 				8F7518B91BFC474D00118655 /* UIBarButtonItem+HECustomItem.m in Sources */,
 				8FFA6BE51BFCC290007759D1 /* HECityBarButton.m in Sources */,
 				8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */,
@@ -587,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -626,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -639,10 +649,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/warmup/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wang.hackice.warmup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haha123as.warm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -652,10 +665,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/warmup/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wang.hackice.warmup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haha123as.warm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
