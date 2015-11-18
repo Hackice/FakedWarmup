@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F75183C1BFC2E8A00118655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75183B1BFC2E8A00118655 /* main.m */; };
-		8F75183F1BFC2E8A00118655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75183E1BFC2E8A00118655 /* AppDelegate.m */; };
-		8F7518421BFC2E8A00118655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518411BFC2E8A00118655 /* ViewController.m */; };
-		8F7518451BFC2E8A00118655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518431BFC2E8A00118655 /* Main.storyboard */; };
-		8F7518471BFC2E8A00118655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518461BFC2E8A00118655 /* Assets.xcassets */; };
-		8F75184A1BFC2E8A00118655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518481BFC2E8A00118655 /* LaunchScreen.storyboard */; };
+		1CEBD1C70276322DBA8EC858 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB13F5FF27EC64E90690DE7C /* libPods.a */; };
+		8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75187E1BFC3D0800118655 /* AppDelegate.m */; };
+		8F75189D1BFC3D0800118655 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F75187F1BFC3D0800118655 /* Info.plist */; };
+		8F75189E1BFC3D0800118655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518801BFC3D0800118655 /* main.m */; };
+		8F7518A01BFC3D0800118655 /* HEConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75189A1BFC3D0800118655 /* HEConst.m */; };
+		8F7518A51BFC3EBD00118655 /* HENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518A21BFC3EBD00118655 /* HENavigationController.m */; };
+		8F7518A61BFC3EBD00118655 /* HETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518A41BFC3EBD00118655 /* HETabBarController.m */; };
+		8F7518A81BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */; };
+		8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518A91BFC443800118655 /* Assets.xcassets */; };
+		8F7518AD1BFC44B100118655 /* HEExperienceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518AC1BFC44B100118655 /* HEExperienceController.m */; };
+		8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518AF1BFC44CB00118655 /* HEExploreController.m */; };
+		8F7518B31BFC44DD00118655 /* HEMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B21BFC44DD00118655 /* HEMainController.m */; };
+		8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B51BFC44EC00118655 /* HEMineController.m */; };
+		8F7518B91BFC474D00118655 /* UIBarButtonItem+HECustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B81BFC474D00118655 /* UIBarButtonItem+HECustomItem.m */; };
+		8F7518BC1BFC4C4B00118655 /* HETabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518BB1BFC4C4B00118655 /* HETabBar.m */; };
+		8F7518BF1BFC54D300118655 /* UIView+HEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518BE1BFC54D300118655 /* UIView+HEExtension.m */; };
+		8F7518C31BFC6B0C00118655 /* HEMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518C11BFC6B0C00118655 /* HEMainCell.m */; };
+		8F7518C41BFC6B0C00118655 /* HEMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518C21BFC6B0C00118655 /* HEMainCell.xib */; };
+		8F7518C71BFC700800118655 /* HEActiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518C61BFC700800118655 /* HEActiveModel.m */; };
+		8F7518CA1BFC736300118655 /* HEUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518C91BFC736300118655 /* HEUserModel.m */; };
+		8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */; };
+		8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86EB4B917803FD80553D256D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8F7518371BFC2E8A00118655 /* warmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warmup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F75183B1BFC2E8A00118655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F75183D1BFC2E8A00118655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8F75183E1BFC2E8A00118655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F7518401BFC2E8A00118655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F7518411BFC2E8A00118655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8F7518441BFC2E8A00118655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F7518461BFC2E8A00118655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F7518491BFC2E8A00118655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F75184B1BFC2E8A00118655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F75187D1BFC3D0800118655 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F75187E1BFC3D0800118655 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F75187F1BFC3D0800118655 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7518801BFC3D0800118655 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7518991BFC3D0800118655 /* HEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEConst.h; sourceTree = "<group>"; };
+		8F75189A1BFC3D0800118655 /* HEConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEConst.m; sourceTree = "<group>"; };
+		8F75189B1BFC3D0800118655 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8F7518A11BFC3EBD00118655 /* HENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HENavigationController.h; sourceTree = "<group>"; };
+		8F7518A21BFC3EBD00118655 /* HENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HENavigationController.m; sourceTree = "<group>"; };
+		8F7518A31BFC3EBD00118655 /* HETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HETabBarController.h; sourceTree = "<group>"; };
+		8F7518A41BFC3EBD00118655 /* HETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETabBarController.m; sourceTree = "<group>"; };
+		8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLanTingkanHei-R-GBK.TTF"; sourceTree = "<group>"; };
+		8F7518A91BFC443800118655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F7518AB1BFC44B100118655 /* HEExperienceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExperienceController.h; sourceTree = "<group>"; };
+		8F7518AC1BFC44B100118655 /* HEExperienceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExperienceController.m; sourceTree = "<group>"; };
+		8F7518AE1BFC44CB00118655 /* HEExploreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreController.h; sourceTree = "<group>"; };
+		8F7518AF1BFC44CB00118655 /* HEExploreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreController.m; sourceTree = "<group>"; };
+		8F7518B11BFC44DD00118655 /* HEMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEMainController.h; sourceTree = "<group>"; };
+		8F7518B21BFC44DD00118655 /* HEMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEMainController.m; sourceTree = "<group>"; };
+		8F7518B41BFC44EC00118655 /* HEMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEMineController.h; sourceTree = "<group>"; };
+		8F7518B51BFC44EC00118655 /* HEMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEMineController.m; sourceTree = "<group>"; };
+		8F7518B71BFC474D00118655 /* UIBarButtonItem+HECustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HECustomItem.h"; sourceTree = "<group>"; };
+		8F7518B81BFC474D00118655 /* UIBarButtonItem+HECustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HECustomItem.m"; sourceTree = "<group>"; };
+		8F7518BA1BFC4C4B00118655 /* HETabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HETabBar.h; sourceTree = "<group>"; };
+		8F7518BB1BFC4C4B00118655 /* HETabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETabBar.m; sourceTree = "<group>"; };
+		8F7518BD1BFC54D300118655 /* UIView+HEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HEExtension.h"; sourceTree = "<group>"; };
+		8F7518BE1BFC54D300118655 /* UIView+HEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HEExtension.m"; sourceTree = "<group>"; };
+		8F7518C01BFC6B0C00118655 /* HEMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HEMainCell.h; path = ../../Mine/View/HEMainCell.h; sourceTree = "<group>"; };
+		8F7518C11BFC6B0C00118655 /* HEMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HEMainCell.m; path = ../../Mine/View/HEMainCell.m; sourceTree = "<group>"; };
+		8F7518C21BFC6B0C00118655 /* HEMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HEMainCell.xib; path = ../../Mine/View/HEMainCell.xib; sourceTree = "<group>"; };
+		8F7518C51BFC700800118655 /* HEActiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEActiveModel.h; sourceTree = "<group>"; };
+		8F7518C61BFC700800118655 /* HEActiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEActiveModel.m; sourceTree = "<group>"; };
+		8F7518C81BFC736300118655 /* HEUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEUserModel.h; sourceTree = "<group>"; };
+		8F7518C91BFC736300118655 /* HEUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEUserModel.m; sourceTree = "<group>"; };
+		8F7518CB1BFC767F00118655 /* UIImage+HEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HEExtension.h"; sourceTree = "<group>"; };
+		8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HEExtension.m"; sourceTree = "<group>"; };
+		8F7518CD1BFC767F00118655 /* UIImageView+HEHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HEHead.h"; sourceTree = "<group>"; };
+		8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HEHead.m"; sourceTree = "<group>"; };
+		AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FB13F5FF27EC64E90690DE7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEBD1C70276322DBA8EC858 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7184AF39FA871C57B86914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86EB4B917803FD80553D256D /* Pods.debug.xcconfig */,
+				AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F75182E1BFC2E8A00118655 = {
 			isa = PBXGroup;
 			children = (
 				8F7518391BFC2E8A00118655 /* warmup */,
 				8F7518381BFC2E8A00118655 /* Products */,
+				4B7184AF39FA871C57B86914 /* Pods */,
+				DB77CD04D3DF0D66EF162277 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,25 +118,246 @@
 		8F7518391BFC2E8A00118655 /* warmup */ = {
 			isa = PBXGroup;
 			children = (
-				8F75183D1BFC2E8A00118655 /* AppDelegate.h */,
-				8F75183E1BFC2E8A00118655 /* AppDelegate.m */,
-				8F7518401BFC2E8A00118655 /* ViewController.h */,
-				8F7518411BFC2E8A00118655 /* ViewController.m */,
-				8F7518431BFC2E8A00118655 /* Main.storyboard */,
-				8F7518461BFC2E8A00118655 /* Assets.xcassets */,
-				8F7518481BFC2E8A00118655 /* LaunchScreen.storyboard */,
-				8F75184B1BFC2E8A00118655 /* Info.plist */,
-				8F75183A1BFC2E8A00118655 /* Supporting Files */,
+				8F75187C1BFC3D0800118655 /* Application */,
+				8F7518811BFC3D0800118655 /* Classes */,
+				8F7518971BFC3D0800118655 /* Global Element */,
 			);
 			path = warmup;
 			sourceTree = "<group>";
 		};
-		8F75183A1BFC2E8A00118655 /* Supporting Files */ = {
+		8F75187C1BFC3D0800118655 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				8F75183B1BFC2E8A00118655 /* main.m */,
+				8F75187D1BFC3D0800118655 /* AppDelegate.h */,
+				8F75187E1BFC3D0800118655 /* AppDelegate.m */,
+				8F75187F1BFC3D0800118655 /* Info.plist */,
+				8F7518801BFC3D0800118655 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8F7518811BFC3D0800118655 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518821BFC3D0800118655 /* Base */,
+				8F7518861BFC3D0800118655 /* Category */,
+				8F7518871BFC3D0800118655 /* Experience */,
+				8F75188B1BFC3D0800118655 /* Explore */,
+				8F75188F1BFC3D0800118655 /* Main */,
+				8F7518931BFC3D0800118655 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8F7518821BFC3D0800118655 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518831BFC3D0800118655 /* Controller */,
+				8F7518841BFC3D0800118655 /* Model */,
+				8F7518851BFC3D0800118655 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8F7518831BFC3D0800118655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518A11BFC3EBD00118655 /* HENavigationController.h */,
+				8F7518A21BFC3EBD00118655 /* HENavigationController.m */,
+				8F7518A31BFC3EBD00118655 /* HETabBarController.h */,
+				8F7518A41BFC3EBD00118655 /* HETabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F7518841BFC3D0800118655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F7518851BFC3D0800118655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518BA1BFC4C4B00118655 /* HETabBar.h */,
+				8F7518BB1BFC4C4B00118655 /* HETabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F7518861BFC3D0800118655 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518BD1BFC54D300118655 /* UIView+HEExtension.h */,
+				8F7518BE1BFC54D300118655 /* UIView+HEExtension.m */,
+				8F7518B71BFC474D00118655 /* UIBarButtonItem+HECustomItem.h */,
+				8F7518B81BFC474D00118655 /* UIBarButtonItem+HECustomItem.m */,
+				8F7518CB1BFC767F00118655 /* UIImage+HEExtension.h */,
+				8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */,
+				8F7518CD1BFC767F00118655 /* UIImageView+HEHead.h */,
+				8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8F7518871BFC3D0800118655 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518881BFC3D0800118655 /* Controller */,
+				8F7518891BFC3D0800118655 /* Model */,
+				8F75188A1BFC3D0800118655 /* View */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		8F7518881BFC3D0800118655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518AB1BFC44B100118655 /* HEExperienceController.h */,
+				8F7518AC1BFC44B100118655 /* HEExperienceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F7518891BFC3D0800118655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F75188A1BFC3D0800118655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F75188B1BFC3D0800118655 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				8F75188C1BFC3D0800118655 /* Controller */,
+				8F75188D1BFC3D0800118655 /* Model */,
+				8F75188E1BFC3D0800118655 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8F75188C1BFC3D0800118655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518AE1BFC44CB00118655 /* HEExploreController.h */,
+				8F7518AF1BFC44CB00118655 /* HEExploreController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F75188D1BFC3D0800118655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F75188E1BFC3D0800118655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F75188F1BFC3D0800118655 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518901BFC3D0800118655 /* Controller */,
+				8F7518911BFC3D0800118655 /* Model */,
+				8F7518921BFC3D0800118655 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F7518901BFC3D0800118655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518B11BFC44DD00118655 /* HEMainController.h */,
+				8F7518B21BFC44DD00118655 /* HEMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F7518911BFC3D0800118655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518C51BFC700800118655 /* HEActiveModel.h */,
+				8F7518C61BFC700800118655 /* HEActiveModel.m */,
+				8F7518C81BFC736300118655 /* HEUserModel.h */,
+				8F7518C91BFC736300118655 /* HEUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F7518921BFC3D0800118655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518C01BFC6B0C00118655 /* HEMainCell.h */,
+				8F7518C11BFC6B0C00118655 /* HEMainCell.m */,
+				8F7518C21BFC6B0C00118655 /* HEMainCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F7518931BFC3D0800118655 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518941BFC3D0800118655 /* Controller */,
+				8F7518951BFC3D0800118655 /* Model */,
+				8F7518961BFC3D0800118655 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8F7518941BFC3D0800118655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518B41BFC44EC00118655 /* HEMineController.h */,
+				8F7518B51BFC44EC00118655 /* HEMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F7518951BFC3D0800118655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F7518961BFC3D0800118655 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F7518971BFC3D0800118655 /* Global Element */ = {
+			isa = PBXGroup;
+			children = (
+				8F7518A91BFC443800118655 /* Assets.xcassets */,
+				8F7518991BFC3D0800118655 /* HEConst.h */,
+				8F75189A1BFC3D0800118655 /* HEConst.m */,
+				8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */,
+				8F75189B1BFC3D0800118655 /* PrefixHeader.pch */,
+			);
+			path = "Global Element";
+			sourceTree = "<group>";
+		};
+		DB77CD04D3DF0D66EF162277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB13F5FF27EC64E90690DE7C /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +367,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F75184E1BFC2E8A00118655 /* Build configuration list for PBXNativeTarget "warmup" */;
 			buildPhases = (
+				D8D7DEC575890B7A119382A8 /* Check Pods Manifest.lock */,
 				8F7518331BFC2E8A00118655 /* Sources */,
 				8F7518341BFC2E8A00118655 /* Frameworks */,
 				8F7518351BFC2E8A00118655 /* Resources */,
+				BA5DAB0192FF8034FC827658 /* Embed Pods Frameworks */,
+				5C118A148FE9E4141F708481 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +389,7 @@
 		8F75182F1BFC2E8A00118655 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HE;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Hackice;
 				TargetAttributes = {
@@ -137,45 +422,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F75184A1BFC2E8A00118655 /* LaunchScreen.storyboard in Resources */,
-				8F7518471BFC2E8A00118655 /* Assets.xcassets in Resources */,
-				8F7518451BFC2E8A00118655 /* Main.storyboard in Resources */,
+				8F75189D1BFC3D0800118655 /* Info.plist in Resources */,
+				8F7518C41BFC6B0C00118655 /* HEMainCell.xib in Resources */,
+				8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */,
+				8F7518A81BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C118A148FE9E4141F708481 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5DAB0192FF8034FC827658 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D7DEC575890B7A119382A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F7518331BFC2E8A00118655 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7518421BFC2E8A00118655 /* ViewController.m in Sources */,
-				8F75183F1BFC2E8A00118655 /* AppDelegate.m in Sources */,
-				8F75183C1BFC2E8A00118655 /* main.m in Sources */,
+				8F7518AD1BFC44B100118655 /* HEExperienceController.m in Sources */,
+				8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */,
+				8F7518A51BFC3EBD00118655 /* HENavigationController.m in Sources */,
+				8F7518A01BFC3D0800118655 /* HEConst.m in Sources */,
+				8F7518BC1BFC4C4B00118655 /* HETabBar.m in Sources */,
+				8F7518B31BFC44DD00118655 /* HEMainController.m in Sources */,
+				8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */,
+				8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */,
+				8F7518B91BFC474D00118655 /* UIBarButtonItem+HECustomItem.m in Sources */,
+				8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */,
+				8F7518CA1BFC736300118655 /* HEUserModel.m in Sources */,
+				8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */,
+				8F7518C31BFC6B0C00118655 /* HEMainCell.m in Sources */,
+				8F7518BF1BFC54D300118655 /* UIView+HEExtension.m in Sources */,
+				8F75189E1BFC3D0800118655 /* main.m in Sources */,
+				8F7518C71BFC700800118655 /* HEActiveModel.m in Sources */,
+				8F7518A61BFC3EBD00118655 /* HETabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8F7518431BFC2E8A00118655 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7518441BFC2E8A00118655 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F7518481BFC2E8A00118655 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7518491BFC2E8A00118655 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8F75184C1BFC2E8A00118655 /* Debug */ = {
@@ -204,6 +533,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/warmup/Global Element/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -245,6 +576,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/warmup/Global Element/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -260,9 +593,11 @@
 		};
 		8F75184F1BFC2E8A00118655 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86EB4B917803FD80553D256D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = warmup/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/warmup/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wang.hackice.warmup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,9 +606,11 @@
 		};
 		8F7518501BFC2E8A00118655 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = warmup/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/warmup/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wang.hackice.warmup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +636,7 @@
 				8F7518501BFC2E8A00118655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

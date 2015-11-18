@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FZLanTingkanHei-R-GBK.TTF">
+            <string>FZLTKHK--GBK1-0</string>
+            <string>FZLTKHK--GBK1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HEMainCell" rowHeight="236" id="KGk-i7-Jjw" customClass="HEMainCell">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="235.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fy0-Tz-dl5" userLabel="backgroundImage">
+                        <rect key="frame" x="10" y="10" width="343" height="225.5"/>
+                        <animations/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c6Y-WB-8LK">
+                        <rect key="frame" x="293" y="175.5" width="50" height="50"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="E3J-Zu-bIk"/>
+                            <constraint firstAttribute="width" constant="50" id="x8P-ZG-RtS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYW-ex-Tji" userLabel="title">
+                        <rect key="frame" x="20" y="189.5" width="45" height="19.5"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="FZLTKHK--GBK1-0" family="FZLanTingKanHei-R-GBK" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEL-s1-FZQ" userLabel="detail">
+                        <rect key="frame" x="20" y="209" width="37" height="16.5"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="FZLTKHK--GBK1-0" family="FZLanTingKanHei-R-GBK" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fy0-Tz-dl5" secondAttribute="bottom" id="1Pb-kR-ezg"/>
+                    <constraint firstItem="SEL-s1-FZQ" firstAttribute="leading" secondItem="eYW-ex-Tji" secondAttribute="leading" id="8bd-6f-Ja8"/>
+                    <constraint firstAttribute="bottom" secondItem="c6Y-WB-8LK" secondAttribute="bottom" constant="10" id="BT4-Uw-zkv"/>
+                    <constraint firstAttribute="bottom" secondItem="SEL-s1-FZQ" secondAttribute="bottom" constant="10" id="Hkg-We-kNB"/>
+                    <constraint firstItem="fy0-Tz-dl5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="O73-jS-r1g"/>
+                    <constraint firstAttribute="trailing" secondItem="fy0-Tz-dl5" secondAttribute="trailing" constant="10" id="mdW-te-3Ne"/>
+                    <constraint firstItem="fy0-Tz-dl5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="or6-Rm-mJz"/>
+                    <constraint firstItem="c6Y-WB-8LK" firstAttribute="trailing" secondItem="fy0-Tz-dl5" secondAttribute="trailing" constant="-10" id="skU-1m-DB8"/>
+                    <constraint firstItem="eYW-ex-Tji" firstAttribute="bottom" secondItem="SEL-s1-FZQ" secondAttribute="top" id="ydd-Yw-NE8"/>
+                    <constraint firstItem="eYW-ex-Tji" firstAttribute="leading" secondItem="fy0-Tz-dl5" secondAttribute="leading" constant="10" id="zx4-Zt-R6K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="backgroundImage" destination="fy0-Tz-dl5" id="ate-Zr-9q8"/>
+                <outlet property="detailString" destination="SEL-s1-FZQ" id="vo3-Dy-DNg"/>
+                <outlet property="titleString" destination="eYW-ex-Tji" id="Zfo-zI-4aN"/>
+                <outlet property="userHeader" destination="c6Y-WB-8LK" id="6ak-qb-clu"/>
+            </connections>
+            <point key="canvasLocation" x="318.5" y="323"/>
+        </tableViewCell>
+    </objects>
+</document>
