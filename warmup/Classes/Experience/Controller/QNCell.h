@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 @class QNModel;
+
 @interface QNCell : UITableViewCell
+
 @property (nonatomic, strong) QNModel *model;
+
 @end

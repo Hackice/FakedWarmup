@@ -8,6 +8,7 @@
 
 #import "QNModel.h"
 #import <MJExtension.h>
+
 @implementation QNModel
 + (NSDictionary *)replacedKeyFromPropertyName{
     return @{
@@ -17,7 +18,5 @@
              @"dateText" : @"ordertime",
              @"likeCount" : @"like_count"};
 }
-
-
 
 @end

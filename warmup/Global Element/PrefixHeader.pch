@@ -45,7 +45,7 @@
 #define HEWeakSelf __weak typeof(self) weakSelf = self;
 
 // 全局背景颜色
-#define backgroundColorGlobal [UIColor colorWithRed:215/255.0 green:215/255.0 blue:215/255.0 alpha:1]
+#define HEGlobalBackgroundColor [UIColor colorWithRed:0.98 green:0.97 blue:0.98 alpha:1]
 
 // 全局风格颜色
 #define HEGlobalColor [UIColor colorWithRed:0.49 green:0.82 blue:1.0 alpha:1]

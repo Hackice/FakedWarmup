@@ -12,10 +12,13 @@
 #import <AFNetworking.h>
 #import <MJExtension.h>
 #import <SDWebImage/UIImageView+WebCache.h>
+
 @interface QNTableViewController ()
+
 @property (nonatomic, weak) AFHTTPSessionManager *manager;
 @property (nonatomic, strong) NSArray *models;
 @property (nonatomic, copy) NSString *header;
+
 @end
 
 @implementation QNTableViewController
@@ -29,35 +32,45 @@
 
 - (void)setHeader:(NSString *)header{
     _header = header;
-    UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 250)];
-    [iv sd_setImageWithURL:[NSURL URLWithString:header]];
-    self.tableView.tableHeaderView = iv;
     
+    UIView *view = [[UIView alloc] init];
+    
+    view.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 270);
+    
+    UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, [UIScreen mainScreen].bounds.size.width - 20, 250)];
+    
+    [view addSubview:iv];
+    
+    [iv sd_setImageWithURL:[NSURL URLWithString:header]];
+    
+    iv.layer.cornerRadius = 5;
+    iv.clipsToBounds = YES;
+    
+    self.tableView.tableHeaderView = view;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self setupNavAndTable];
     
     [self setupData];
-    
-
 }
 
 - (void)setupNavAndTable{
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"课程心得";
-    label.textColor = [UIColor blueColor];
-    label.font = [UIFont systemFontOfSize:20];
-    [label sizeToFit];
-    self.navigationItem.titleView = label;
+
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    self.view.backgroundColor = HEGlobalBackgroundColor;
+    
+    self.navigationItem.title = @"课程心得";
+    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"qianbi" ofType:@"jpg"];
-    [btn setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"qianbi"] forState:UIControlStateNormal];
     [btn sizeToFit];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     
-    self.tableView.rowHeight = 125;
+    self.tableView.rowHeight = 95;
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([QNCell class]) bundle:nil] forCellReuseIdentifier:ID];
 }
 
@@ -66,15 +79,16 @@
     
     __weak typeof(self) weakSelf = self;
     [self.manager GET:requestURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+       
         weakSelf.header = responseObject[@"result"][@"head"][@"image"];
 //        NSLog(@"%@", weakSelf.header);
-        weakSelf.models = [QNModel objectArrayWithKeyValuesArray:responseObject[@"result"][@"learned"]];
+        weakSelf.models = [QNModel mj_objectArrayWithKeyValuesArray:responseObject[@"result"][@"learned"]];
         [weakSelf.tableView reloadData];
+        
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         if (error.code == NSURLErrorCancelled) return;
         return;
     }];
-    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -88,10 +102,5 @@ static NSString *ID = @"QNCell";
     cell.model = model;
     return cell;
 }
-
-
-
-
-
 
 @end

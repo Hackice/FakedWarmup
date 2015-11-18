@@ -24,6 +24,7 @@
 @implementation QNCell
 
 - (void)setModel:(QNModel *)model{
+    
     _model = model;
     // 设置图片
     [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:model.imageUrl]];
@@ -32,6 +33,9 @@
     self.contentLabel.text = model.contentText;
     self.dateLabel.text = [NSString stringWithTimeStamp:model.dateText];
     [self.likeCountButton setTitle:[NSString stringWithFormat:@"%ld",model.likeCount] forState:UIControlStateNormal];
+    self.backgroundColor = HEGlobalBackgroundColor;
 }
+
+
 
 @end

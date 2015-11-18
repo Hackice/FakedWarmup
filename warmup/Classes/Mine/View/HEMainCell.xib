@@ -23,6 +23,11 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fy0-Tz-dl5" userLabel="backgroundImage">
                         <rect key="frame" x="10" y="10" width="343" height="225.5"/>
                         <animations/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c6Y-WB-8LK">
                         <rect key="frame" x="293" y="175.5" width="50" height="50"/>
@@ -62,6 +67,7 @@
                 </constraints>
             </tableViewCellContentView>
             <animations/>
+            <color key="backgroundColor" red="0.97646999359999997" green="0.96863001589999997" blue="0.9803900123" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
                 <outlet property="backgroundImage" destination="fy0-Tz-dl5" id="ate-Zr-9q8"/>
                 <outlet property="detailString" destination="SEL-s1-FZQ" id="vo3-Dy-DNg"/>

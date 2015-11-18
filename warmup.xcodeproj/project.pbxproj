@@ -16,7 +16,6 @@
 		8F7518A61BFC3EBD00118655 /* HETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518A41BFC3EBD00118655 /* HETabBarController.m */; };
 		8F7518A81BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */; };
 		8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518A91BFC443800118655 /* Assets.xcassets */; };
-		8F7518AD1BFC44B100118655 /* HEExperienceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518AC1BFC44B100118655 /* HEExperienceController.m */; };
 		8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518AF1BFC44CB00118655 /* HEExploreController.m */; };
 		8F7518B31BFC44DD00118655 /* HEMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B21BFC44DD00118655 /* HEMainController.m */; };
 		8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B51BFC44EC00118655 /* HEMineController.m */; };
@@ -34,8 +33,6 @@
 		8FFA6BFB1BFCDF10007759D1 /* QNCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF11BFCDF10007759D1 /* QNCell.m */; };
 		8FFA6BFC1BFCDF10007759D1 /* QNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF31BFCDF10007759D1 /* QNModel.m */; };
 		8FFA6BFD1BFCDF10007759D1 /* QNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */; };
-		8FFA6BFE1BFCDF10007759D1 /* aixing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF61BFCDF10007759D1 /* aixing.png */; };
-		8FFA6BFF1BFCDF10007759D1 /* qianbi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF71BFCDF10007759D1 /* qianbi.jpg */; };
 		8FFA6C001BFCDF10007759D1 /* NSString+TimeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +52,6 @@
 		8F7518A41BFC3EBD00118655 /* HETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETabBarController.m; sourceTree = "<group>"; };
 		8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLanTingkanHei-R-GBK.TTF"; sourceTree = "<group>"; };
 		8F7518A91BFC443800118655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F7518AB1BFC44B100118655 /* HEExperienceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExperienceController.h; sourceTree = "<group>"; };
-		8F7518AC1BFC44B100118655 /* HEExperienceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExperienceController.m; sourceTree = "<group>"; };
 		8F7518AE1BFC44CB00118655 /* HEExploreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreController.h; sourceTree = "<group>"; };
 		8F7518AF1BFC44CB00118655 /* HEExploreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreController.m; sourceTree = "<group>"; };
 		8F7518B11BFC44DD00118655 /* HEMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEMainController.h; sourceTree = "<group>"; };
@@ -89,8 +84,6 @@
 		8FFA6BF31BFCDF10007759D1 /* QNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNModel.m; sourceTree = "<group>"; };
 		8FFA6BF41BFCDF10007759D1 /* QNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNTableViewController.h; sourceTree = "<group>"; };
 		8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNTableViewController.m; sourceTree = "<group>"; };
-		8FFA6BF61BFCDF10007759D1 /* aixing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aixing.png; sourceTree = "<group>"; };
-		8FFA6BF71BFCDF10007759D1 /* qianbi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qianbi.jpg; sourceTree = "<group>"; };
 		8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeString.h"; sourceTree = "<group>"; };
 		8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeString.m"; sourceTree = "<group>"; };
 		AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,12 +235,8 @@
 				8FFA6BF31BFCDF10007759D1 /* QNModel.m */,
 				8FFA6BF41BFCDF10007759D1 /* QNTableViewController.h */,
 				8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */,
-				8FFA6BF61BFCDF10007759D1 /* aixing.png */,
-				8FFA6BF71BFCDF10007759D1 /* qianbi.jpg */,
 				8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */,
 				8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */,
-				8F7518AB1BFC44B100118655 /* HEExperienceController.h */,
-				8F7518AC1BFC44B100118655 /* HEExperienceController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -457,8 +446,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F75189D1BFC3D0800118655 /* Info.plist in Resources */,
-				8FFA6BFE1BFCDF10007759D1 /* aixing.png in Resources */,
-				8FFA6BFF1BFCDF10007759D1 /* qianbi.jpg in Resources */,
 				8F7518C41BFC6B0C00118655 /* HEMainCell.xib in Resources */,
 				8FFA6BFA1BFCDF10007759D1 /* QNCell.xib in Resources */,
 				8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */,
@@ -522,7 +509,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FFA6BFC1BFCDF10007759D1 /* QNModel.m in Sources */,
-				8F7518AD1BFC44B100118655 /* HEExperienceController.m in Sources */,
 				8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */,
 				8F7518A51BFC3EBD00118655 /* HENavigationController.m in Sources */,
 				8F7518A01BFC3D0800118655 /* HEConst.m in Sources */,

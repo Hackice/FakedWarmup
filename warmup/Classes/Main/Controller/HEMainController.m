@@ -36,6 +36,8 @@
 
 - (void)setupView {
     
+    self.view.backgroundColor = HEGlobalBackgroundColor;
+    
     // set title
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
