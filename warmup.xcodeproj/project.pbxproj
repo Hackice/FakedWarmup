@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1CEBD1C70276322DBA8EC858 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB13F5FF27EC64E90690DE7C /* libPods.a */; };
-		5BF9DC191BFCE8A4009D4833 /* HEMineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */; };
-		5BF9DC241BFCF6A0009D4833 /* HETempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */; };
 		8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75187E1BFC3D0800118655 /* AppDelegate.m */; };
 		8F75189D1BFC3D0800118655 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F75187F1BFC3D0800118655 /* Info.plist */; };
 		8F75189E1BFC3D0800118655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518801BFC3D0800118655 /* main.m */; };
@@ -18,9 +16,7 @@
 		8F7518A61BFC3EBD00118655 /* HETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518A41BFC3EBD00118655 /* HETabBarController.m */; };
 		8F7518A81BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */; };
 		8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7518A91BFC443800118655 /* Assets.xcassets */; };
-		8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518AF1BFC44CB00118655 /* HEExploreController.m */; };
 		8F7518B31BFC44DD00118655 /* HEMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B21BFC44DD00118655 /* HEMainController.m */; };
-		8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B51BFC44EC00118655 /* HEMineController.m */; };
 		8F7518B91BFC474D00118655 /* UIBarButtonItem+HECustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518B81BFC474D00118655 /* UIBarButtonItem+HECustomItem.m */; };
 		8F7518BC1BFC4C4B00118655 /* HETabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518BB1BFC4C4B00118655 /* HETabBar.m */; };
 		8F7518BF1BFC54D300118655 /* UIView+HEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7518BE1BFC54D300118655 /* UIView+HEExtension.m */; };
@@ -36,12 +32,18 @@
 		8FFA6BFC1BFCDF10007759D1 /* QNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF31BFCDF10007759D1 /* QNModel.m */; };
 		8FFA6BFD1BFCDF10007759D1 /* QNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */; };
 		8FFA6C001BFCDF10007759D1 /* NSString+TimeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */; };
+		8FFA6C0F1BFD64DE007759D1 /* HEExploreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C0D1BFD64DE007759D1 /* HEExploreController.m */; };
+		8FFA6C131BFD68A1007759D1 /* HEExploreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C121BFD68A1007759D1 /* HEExploreCell.m */; };
+		8FFA6C161BFD690F007759D1 /* HEExploreHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C151BFD690F007759D1 /* HEExploreHeader.m */; };
+		8FFA6C1B1BFD6E23007759D1 /* HEExploreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C1A1BFD6E23007759D1 /* HEExploreButton.m */; };
+		8FFA6C1F1BFD7415007759D1 /* HELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C1D1BFD7415007759D1 /* HELoginViewController.m */; };
+		8FFA6C201BFD7415007759D1 /* HELoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA6C1E1BFD7415007759D1 /* HELoginViewController.xib */; };
+		8FFA6C231BFD766F007759D1 /* HELoginRegisterTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C221BFD766F007759D1 /* HELoginRegisterTextFiled.m */; };
+		8FFA6C261BFD772D007759D1 /* UITextField+HEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C251BFD772D007759D1 /* UITextField+HEExtension.m */; };
+		8FFA6C291BFD791B007759D1 /* HEQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA6C281BFD791B007759D1 /* HEQuickLoginButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HEMineController.xib; sourceTree = "<group>"; };
-		5BF9DC221BFCF6A0009D4833 /* HETempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HETempViewController.h; sourceTree = "<group>"; };
-		5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETempViewController.m; sourceTree = "<group>"; };
 		86EB4B917803FD80553D256D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8F7518371BFC2E8A00118655 /* warmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warmup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F75187D1BFC3D0800118655 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,12 +59,8 @@
 		8F7518A41BFC3EBD00118655 /* HETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETabBarController.m; sourceTree = "<group>"; };
 		8F7518A71BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLanTingkanHei-R-GBK.TTF"; sourceTree = "<group>"; };
 		8F7518A91BFC443800118655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F7518AE1BFC44CB00118655 /* HEExploreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreController.h; sourceTree = "<group>"; };
-		8F7518AF1BFC44CB00118655 /* HEExploreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreController.m; sourceTree = "<group>"; };
 		8F7518B11BFC44DD00118655 /* HEMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEMainController.h; sourceTree = "<group>"; };
 		8F7518B21BFC44DD00118655 /* HEMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEMainController.m; sourceTree = "<group>"; };
-		8F7518B41BFC44EC00118655 /* HEMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEMineController.h; sourceTree = "<group>"; };
-		8F7518B51BFC44EC00118655 /* HEMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEMineController.m; sourceTree = "<group>"; };
 		8F7518B71BFC474D00118655 /* UIBarButtonItem+HECustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HECustomItem.h"; sourceTree = "<group>"; };
 		8F7518B81BFC474D00118655 /* UIBarButtonItem+HECustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HECustomItem.m"; sourceTree = "<group>"; };
 		8F7518BA1BFC4C4B00118655 /* HETabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HETabBar.h; sourceTree = "<group>"; };
@@ -91,6 +89,23 @@
 		8FFA6BF51BFCDF10007759D1 /* QNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNTableViewController.m; sourceTree = "<group>"; };
 		8FFA6BF81BFCDF10007759D1 /* NSString+TimeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TimeString.h"; path = "../Experience/Controller/NSString+TimeString.h"; sourceTree = "<group>"; };
 		8FFA6BF91BFCDF10007759D1 /* NSString+TimeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TimeString.m"; path = "../Experience/Controller/NSString+TimeString.m"; sourceTree = "<group>"; };
+		8FFA6C0C1BFD64DE007759D1 /* HEExploreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreController.h; sourceTree = "<group>"; };
+		8FFA6C0D1BFD64DE007759D1 /* HEExploreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreController.m; sourceTree = "<group>"; };
+		8FFA6C111BFD68A1007759D1 /* HEExploreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreCell.h; sourceTree = "<group>"; };
+		8FFA6C121BFD68A1007759D1 /* HEExploreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreCell.m; sourceTree = "<group>"; };
+		8FFA6C141BFD690F007759D1 /* HEExploreHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreHeader.h; sourceTree = "<group>"; };
+		8FFA6C151BFD690F007759D1 /* HEExploreHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreHeader.m; sourceTree = "<group>"; };
+		8FFA6C191BFD6E23007759D1 /* HEExploreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEExploreButton.h; sourceTree = "<group>"; };
+		8FFA6C1A1BFD6E23007759D1 /* HEExploreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEExploreButton.m; sourceTree = "<group>"; };
+		8FFA6C1C1BFD7415007759D1 /* HELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HELoginViewController.h; sourceTree = "<group>"; };
+		8FFA6C1D1BFD7415007759D1 /* HELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HELoginViewController.m; sourceTree = "<group>"; };
+		8FFA6C1E1BFD7415007759D1 /* HELoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HELoginViewController.xib; sourceTree = "<group>"; };
+		8FFA6C211BFD766F007759D1 /* HELoginRegisterTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HELoginRegisterTextFiled.h; sourceTree = "<group>"; };
+		8FFA6C221BFD766F007759D1 /* HELoginRegisterTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HELoginRegisterTextFiled.m; sourceTree = "<group>"; };
+		8FFA6C241BFD772D007759D1 /* UITextField+HEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HEExtension.h"; sourceTree = "<group>"; };
+		8FFA6C251BFD772D007759D1 /* UITextField+HEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HEExtension.m"; sourceTree = "<group>"; };
+		8FFA6C271BFD791B007759D1 /* HEQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEQuickLoginButton.h; sourceTree = "<group>"; };
+		8FFA6C281BFD791B007759D1 /* HEQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEQuickLoginButton.m; sourceTree = "<group>"; };
 		AEC128091A51518426D4CDE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB13F5FF27EC64E90690DE7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -218,6 +233,8 @@
 				8F7518CC1BFC767F00118655 /* UIImage+HEExtension.m */,
 				8F7518CD1BFC767F00118655 /* UIImageView+HEHead.h */,
 				8F7518CE1BFC767F00118655 /* UIImageView+HEHead.m */,
+				8FFA6C241BFD772D007759D1 /* UITextField+HEExtension.h */,
+				8FFA6C251BFD772D007759D1 /* UITextField+HEExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -273,8 +290,8 @@
 		8F75188C1BFC3D0800118655 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8F7518AE1BFC44CB00118655 /* HEExploreController.h */,
-				8F7518AF1BFC44CB00118655 /* HEExploreController.m */,
+				8FFA6C0C1BFD64DE007759D1 /* HEExploreController.h */,
+				8FFA6C0D1BFD64DE007759D1 /* HEExploreController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +306,12 @@
 		8F75188E1BFC3D0800118655 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA6C111BFD68A1007759D1 /* HEExploreCell.h */,
+				8FFA6C121BFD68A1007759D1 /* HEExploreCell.m */,
+				8FFA6C141BFD690F007759D1 /* HEExploreHeader.h */,
+				8FFA6C151BFD690F007759D1 /* HEExploreHeader.m */,
+				8FFA6C191BFD6E23007759D1 /* HEExploreButton.h */,
+				8FFA6C1A1BFD6E23007759D1 /* HEExploreButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,11 +371,9 @@
 		8F7518941BFC3D0800118655 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8F7518B41BFC44EC00118655 /* HEMineController.h */,
-				8F7518B51BFC44EC00118655 /* HEMineController.m */,
-				5BF9DC181BFCE8A4009D4833 /* HEMineController.xib */,
-				5BF9DC221BFCF6A0009D4833 /* HETempViewController.h */,
-				5BF9DC231BFCF6A0009D4833 /* HETempViewController.m */,
+				8FFA6C1C1BFD7415007759D1 /* HELoginViewController.h */,
+				8FFA6C1D1BFD7415007759D1 /* HELoginViewController.m */,
+				8FFA6C1E1BFD7415007759D1 /* HELoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -367,6 +388,10 @@
 		8F7518961BFC3D0800118655 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA6C271BFD791B007759D1 /* HEQuickLoginButton.h */,
+				8FFA6C281BFD791B007759D1 /* HEQuickLoginButton.m */,
+				8FFA6C211BFD766F007759D1 /* HELoginRegisterTextFiled.h */,
+				8FFA6C221BFD766F007759D1 /* HELoginRegisterTextFiled.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -453,12 +478,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF9DC191BFCE8A4009D4833 /* HEMineController.xib in Resources */,
 				8F75189D1BFC3D0800118655 /* Info.plist in Resources */,
 				8F7518C41BFC6B0C00118655 /* HEMainCell.xib in Resources */,
 				8FFA6BFA1BFCDF10007759D1 /* QNCell.xib in Resources */,
 				8F7518AA1BFC443800118655 /* Assets.xcassets in Resources */,
 				8F7518A81BFC407B00118655 /* FZLanTingkanHei-R-GBK.TTF in Resources */,
+				8FFA6C201BFD7415007759D1 /* HELoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,23 +543,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FFA6BFC1BFCDF10007759D1 /* QNModel.m in Sources */,
-				8F7518B61BFC44EC00118655 /* HEMineController.m in Sources */,
+				8FFA6C231BFD766F007759D1 /* HELoginRegisterTextFiled.m in Sources */,
 				8F7518A51BFC3EBD00118655 /* HENavigationController.m in Sources */,
 				8F7518A01BFC3D0800118655 /* HEConst.m in Sources */,
 				8F7518BC1BFC4C4B00118655 /* HETabBar.m in Sources */,
+				8FFA6C1F1BFD7415007759D1 /* HELoginViewController.m in Sources */,
 				8F7518B31BFC44DD00118655 /* HEMainController.m in Sources */,
 				8F7518D01BFC767F00118655 /* UIImageView+HEHead.m in Sources */,
 				8F7518CF1BFC767F00118655 /* UIImage+HEExtension.m in Sources */,
-				5BF9DC241BFCF6A0009D4833 /* HETempViewController.m in Sources */,
+				8FFA6C291BFD791B007759D1 /* HEQuickLoginButton.m in Sources */,
+				8FFA6C0F1BFD64DE007759D1 /* HEExploreController.m in Sources */,
+				8FFA6C261BFD772D007759D1 /* UITextField+HEExtension.m in Sources */,
 				8F7518B91BFC474D00118655 /* UIBarButtonItem+HECustomItem.m in Sources */,
+				8FFA6C1B1BFD6E23007759D1 /* HEExploreButton.m in Sources */,
 				8FFA6BE51BFCC290007759D1 /* HECityBarButton.m in Sources */,
-				8F7518B01BFC44CB00118655 /* HEExploreController.m in Sources */,
 				8F7518CA1BFC736300118655 /* HEUserModel.m in Sources */,
 				8F75189C1BFC3D0800118655 /* AppDelegate.m in Sources */,
 				8F7518C31BFC6B0C00118655 /* HEMainCell.m in Sources */,
+				8FFA6C131BFD68A1007759D1 /* HEExploreCell.m in Sources */,
 				8FFA6BFD1BFCDF10007759D1 /* QNTableViewController.m in Sources */,
 				8F7518BF1BFC54D300118655 /* UIView+HEExtension.m in Sources */,
 				8FFA6C001BFCDF10007759D1 /* NSString+TimeString.m in Sources */,
+				8FFA6C161BFD690F007759D1 /* HEExploreHeader.m in Sources */,
 				8F75189E1BFC3D0800118655 /* main.m in Sources */,
 				8F7518C71BFC700800118655 /* HEActiveModel.m in Sources */,
 				8FFA6BFB1BFCDF10007759D1 /* QNCell.m in Sources */,

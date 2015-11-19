@@ -30,7 +30,7 @@
 #import "UIView+HEExtension.h"
 
 // 为UITextField设置占位文字颜色
-//#import "UITextField+HEExtension.h"
+#import "UITextField+HEExtension.h"
 
 // 计算时间间隔
 //#import "NSDate+HEExtension.h"

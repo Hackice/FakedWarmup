@@ -22,8 +22,8 @@
 #import "HEMainController.h"
 #import "QNTableViewController.h"
 #import "HEExploreController.h"
-#import "HEMineController.h"
-#import "HETempViewController.h"
+#import "HELoginViewController.h"
+
 
 @interface HETabBarController ()
 
@@ -57,9 +57,8 @@
     [self addChildViewControllerWith:[[QNTableViewController alloc] init] image:@"Experience_item" selectedImage:@"Experience_item_selected"];
    
     [self addChildViewControllerWith:[[HEExploreController alloc] initWithStyle:UITableViewStyleGrouped] image:@"Explore_item" selectedImage:@"Explore_item_selected"];
-    
-//    [self addChildViewControllerWith:[[HEMineController alloc] initWithStyle:UITableViewStyleGrouped] image:@"Mine_item" selectedImage:@"Mine_item_selected"];
-    [self addChildViewControllerWith:[[HEMineController alloc] init] image:@"Mine_item" selectedImage:@"Mine_item_selected"];
+
+//    [self addChildViewControllerWith:[[HETempViewController alloc] init] image:@"Mine_item" selectedImage:@"Mine_item_selected"];
 }
 
 /**
@@ -73,8 +72,6 @@
 - (void)addChildViewControllerWith:(UIViewController *)controller image:(NSString *)image selectedImage:(NSString *)selectedImage {
 
     HENavigationController *navi = [[HENavigationController alloc] initWithRootViewController:controller];
-    
-//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:controller];
     
     [self addChildViewController:navi];
     

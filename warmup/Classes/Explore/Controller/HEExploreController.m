@@ -2,11 +2,13 @@
 //  HEExploreController.m
 //  warmup
 //
-//  Created by Hackice on 15/11/18.
+//  Created by Hackice on 15/11/19.
 //  Copyright © 2015年 Hackice. All rights reserved.
 //
 
 #import "HEExploreController.h"
+#import "HEExploreCell.h"
+#import "HEExploreHeader.h"
 
 @interface HEExploreController ()
 
@@ -17,82 +19,100 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    [self setupView];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self setupNavigationBar];
+    
+    [self setupHeaderView];
+}
+- (void)setupHeaderView {
+    
+    // header view
+    HEExploreHeader *headerView = [[HEExploreHeader alloc] init];
+    headerView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200);
+    
+    self.tableView.tableHeaderView = headerView;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupNavigationBar {
+    
+    // set title view
+    // 搜索栏
+    UISearchBar *searchBar = [[UISearchBar alloc] init];
+    searchBar.placeholder = @"搜索";
+    self.navigationItem.titleView = searchBar;
+   
 }
+
+- (void)setupView {
+    
+    // set backgroundColor
+    self.view.backgroundColor = HEGlobalBackgroundColor;
+    
+    // set scroll disable
+    //    self.tableView.scrollEnabled = NO;
+    
+    // section header height
+//    self.tableView.sectionHeaderHeight = 20;
+    
+    // section footer height
+//    self.tableView.sectionFooterHeight = 10;
+    
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    // header offset
+    self.tableView.contentInset = UIEdgeInsetsMake(10, 0, 0, 0);
+}
+
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    // Return the number of rows in the section.
+    return 3;
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    static NSString *ID = @"HEExploreCell";
     
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    
+    if (!cell) {
+        
+        cell = [[HEExploreCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    
+    cell.textLabel.font = [UIFont fontWithName:@"FZLanTingkanHei-R-GBK" size:14];
+    
+    switch (indexPath.row) {
+        case 0:
+            cell.imageView.image = [UIImage imageNamed:@"Tuijianlaoshi"];
+            cell.textLabel.text = @"推荐老师";
+            break;
+        case 1:
+            cell.imageView.image = [UIImage imageNamed:@"Kechengzhuanti"];
+            cell.textLabel.text = @"课程专题";
+            break;
+        case 2:
+            cell.imageView.image = [UIImage imageNamed:@"Remendidian"];
+            cell.textLabel.text = @"热门地点";
+            break;
+            
+        default:
+            break;
+    }
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    
+    return 15 ;
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

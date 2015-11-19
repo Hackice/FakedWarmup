@@ -1,5 +1,5 @@
 //
-//  HEExploreController.h
+//  HEExploreHeader.h
 //  warmup
 //
 //  Created by Hackice on 15/11/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HEExploreController : UITableViewController
+@interface HEExploreHeader : UIView
 
 @end

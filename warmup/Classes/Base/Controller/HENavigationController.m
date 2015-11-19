@@ -59,6 +59,12 @@
     }
     
     // 在这里设置控制器的背景颜色会调用控制器的viewDidLoad, 或许会导致子控制器中的部分操作失效
+//    if ([viewController isKindOfClass:[HETempViewController class]]) {
+//    
+//        HEMineController *mineC = [[HEMineController alloc] init];
+//        
+//        [self presentViewController:mineC animated:YES completion:nil];
+//    }
     
     // super方法的调用必要性和优先性需要清楚
     [super pushViewController:viewController animated:animated];
