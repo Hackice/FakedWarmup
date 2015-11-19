@@ -12,6 +12,8 @@
 
 @interface HEExploreController ()
 
+@property (weak, nonatomic) UISearchBar *searchBar;/**< 搜索栏 */
+
 @end
 
 @implementation HEExploreController
@@ -40,8 +42,8 @@
     // 搜索栏
     UISearchBar *searchBar = [[UISearchBar alloc] init];
     searchBar.placeholder = @"搜索";
+    self.searchBar = searchBar;
     self.navigationItem.titleView = searchBar;
-   
 }
 
 - (void)setupView {
@@ -113,6 +115,11 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     
     return 15 ;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+
+    [self.searchBar endEditing:YES];
 }
 
 @end
